@@ -1,0 +1,70 @@
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url("assets/fleur-de-lis-wallpaper.jpg");
+}
+
+h2 {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    margin: auto;
+    width: 80%;
+    padding: 10%;
+}
+
+.main {
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: lightgray;
+    width: 88%;
+    padding: 2.5rem;
+    font-size: 18px;
+}
+
+.side {
+    width: 12%;
+    background-color: #eee;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 25px;
+    text-align: right;
+    opacity: 0.01;
+}
+
+.header {
+    background-color: #2d2d2a;
+    color: #eee;
+    padding: 2rem 2rem 1.6rem 2rem;
+    z-index: 100;
+    position: fixed;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: lightgray;
+    max-width: 12%;
+}
+
+.headline {
+    font-size: 32pt;
+}
+
+.byline {
+    color: #555;
+    font-size: 9pt;
+}
+.role {
+    color: #777;
+    font-size: .7rem;
+}
